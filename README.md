@@ -1,5 +1,7 @@
 # terraform-create-ec2-instance
 
+## This is a sample project for create ec2 instance using terraform
+
 ## 1. Intsall [Terraform CLI](https://www.terraform.io/downloads) & Intsall [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 ---
 ## 2. Craete AWS security credentials profile that containes the `aws_access_key_id`&`aws_secret_access_key` into default location ex: `$HOME\.aws\credentials` and that containes the `region` into default location ex: `$HOME\.aws\config` then do the following:
