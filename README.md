@@ -22,7 +22,7 @@ terraform init
 ---
 ## 4. Create `main.tf` file That contains the specifications resources that you will build ex: EC2 instance specs
 ---
-## 5. Create `security.tf` file That containes the security group attached to the ec2 instence Also the keypair that will be used to connect on the ec2 instence
+## 5. Create `security.tf` file That containes the security group attached to the ec2 instence Also the keypair that will be used to connect on the ec2 instence & allow inbound outbound connection
 ---
 ## 6. Create `variables.tf` file That containes all the variables with the data that you should expose to public, Make sure you generate SSH key if you don't have one and add `variable name` only into the `variables.tf` file then do the following:
 ```bash
